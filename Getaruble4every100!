@@ -9,5 +9,8 @@ public class Main {
             bonus = limit;
         }
         System.out.println(bonus);
+
+        long amountbonus = (amount + transfer + bonus + 100);
+        System.out.println(amountbonus);
     }
 }
