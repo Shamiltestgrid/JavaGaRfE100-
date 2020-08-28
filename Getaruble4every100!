@@ -1,10 +1,10 @@
-public class MainV6 {
+public class Main {
     public static void main(String[] args) {
-        boolean registered = true;
-        int percent = registered ? 3 : 1;
-        long amount = 100060;
-        long bonus = amount * percent / 100 / 100;
-        long limit = 500;
+        
+        long amount = 100;
+        long transfer = 1000;
+        long bonus = (amount + transfer) / 100;
+        long limit = 1000;
         if (bonus > limit) {
             bonus = limit;
         }
