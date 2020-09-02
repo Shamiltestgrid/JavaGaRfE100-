@@ -1,5 +1,5 @@
 
-public class Main {
+public class Main2 {
         public static void main(String[] args) {
         int amount = 100;
         int transfer = 1100;
