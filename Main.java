@@ -1,28 +1,18 @@
 public class Main {
         public static void main(String[] args) {
-        
-          int transfer1 = 100;
-          int limit = 1000;
-
-          int bonus = (transfer1) / 100;
-        
-          if (transfer1 < limit){
+          int amount = 100;
+          int transfer = 1100;
+          int limit = 1000;        
+          int bonus;
+  
+          if(transfer < limit) {
           bonus = 0;
+          } else {
+          bonus = transfer / 100;
           }
         
-          System.out.println(bonus);
-
-          int transfer2 = 1100;
+         System.out.println(bonus);
           
-          if (transfer2 > limit) {
-           transfer2 = limit;
-          }
-        
-          int totalBonus = ((transfer2) / 100) + 1;
-        
-          System.out.println(totalBonus);
-    
-    
-
-    }
+         int totalAmount = amount + transfer + bonus;
+         System.out.println(totalAmount);
     }
